@@ -3,4 +3,6 @@ kind: Namespace
 metadata:
   labels:
     istio-injection: enabled
+    pod-security.kubernetes.io/enforce: privileged
+    pod-security.kubernetes.io/warn: restricted
   name: breeze
